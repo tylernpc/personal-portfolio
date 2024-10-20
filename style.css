@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    color: rgb(31, 31, 31);
+    margin: 0em;
+    padding: 0em;
+}
+
+body {
+    font-family: "Space Mono", monospace;
+    background-image: url('images/backgroundtwo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+header h1 {
+    font-family: "Playfair Display", serif;
+    letter-spacing: 4px;
+    margin: 3em 0em 2em 3em;
+}
+
+.left-half {
+    outline: solid red 1px;
+}
+
+.right-half {
+    outline: solid blue 1px;
+}
+
+.tyler-logo {
+    text-decoration: none;
+}
+
+::selection {
+    color: #f2f2f2;
+    background: rgb(31, 31, 31);
+}
+
+a:link {
+    color: none;
+}
+
+a:visited {
+    color: none;
+}
+
+a:hover {
+    color: #f2f2f2;
+}
+
+a:active {
+    color: f2f2f2;
+}
