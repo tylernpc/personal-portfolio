@@ -83,6 +83,14 @@ header h1 {
     margin-top: 6em;
 }
 
+.social-item {
+    margin: 0 1em;
+}
+
+.social-items {
+    margin-top: 30.5em;
+}
+
 .title-name {
     font-family: 'Playfair Display', serif;
     margin-left: 1em;
